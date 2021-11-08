@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contain{
+   width: 100vw;
+   max-width: 1440px;
+   min-width: 800px;
+   position: relative;
+}
+
+.row{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul li{
+    list-style: none; 
+    display: inline-block;
+}
+
+.menu{
+    height: 80px;
+    line-height: 80px;  
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+.left ul li{
+    padding-right: 30px;
+}
+
+.right ul li{
+    padding-left: 30px;
+}
+
+.jumbo{
+    width: 80%;
+    margin: 0 auto;
+    padding: 90px 0;
+}
+
+.primo{
+    height: 650px;
+    background-color: rgb(220, 236, 250);
+}
+
+.jumboimg{
+    width: 800px;
+    position: absolute;
+    top: 270px;
+    right: 10%;
+}
+
+.jumbo h1{
+    font-size: 75px;
+}
+
+.p{
+    width: 30%;
+    margin: 30px 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.prova{
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+}
+
+.prova:hover{
+    color: rgb(220, 236, 250);
+}
+
+.annulla{
+    color: black;
+}
+
+.blu{
+    margin-bottom: 25px;
+}
+
+.freccia{
+    margin: 30px 0;
+    font-size: 30px;
+}
