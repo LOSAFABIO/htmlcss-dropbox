@@ -219,6 +219,8 @@ h3,.punti{
     transform: translate(-15%,150%);
 }
 
+/*TERZO PARAGRAFO*/
+
 .partner{
     width: 70%;
     margin: 0 auto;
@@ -229,3 +231,18 @@ h3,.punti{
     float: left;
 }
 
+.partner .foto{
+    float: right;
+    width: 50%;
+}
+
+.text{
+    width: 75%;
+    margin: 30px auto;
+}
+
+/*QUARTO PARAGRAFO*/
+
+.quarto{
+    margin-top: 100px;
+}
