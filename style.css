@@ -85,7 +85,7 @@ a{
 
 .prova{
     color: white;
-    background-color: blue;
+    background-color: rgb(48, 130, 253);
     padding: 10px 20px;
 }
 
@@ -104,4 +104,54 @@ a{
 .freccia{
     margin: 30px 0;
     font-size: 30px;
+}
+
+/* FATTURAZIONE*/
+
+
+.fatturazione{
+    width: 70%;
+    margin: 0 auto;
+    padding: 200px 0;
+}
+
+.fatturazione h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.scelta{
+    margin: 0 0 0 10px;
+}
+
+input{
+    display: inline-block;
+}
+
+/*PIANO FATTURAZIONE*/
+
+.uno{
+    width: 33%;
+    height: 800px;
+    border: solid 1px rgb(235, 235, 235);
+}
+
+.testa{
+    border-bottom: solid 1px rgb(235, 235, 235);
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+
+.corpo{
+    padding: 30px;
+}
+
+.piano{
+    margin: 10px auto;
+}
+
+p span{
+    text-decoration: underline;
+    color: rgb(48, 130, 253);
 }
