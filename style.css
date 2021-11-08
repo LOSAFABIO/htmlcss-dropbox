@@ -112,7 +112,7 @@ a{
 .fatturazione{
     width: 70%;
     margin: 0 auto;
-    padding: 200px 0;
+    padding: 200px 0 100px 0;
 }
 
 .fatturazione h2{
@@ -130,10 +130,26 @@ input{
 
 /*PIANO FATTURAZIONE*/
 
-.uno{
-    width: 33%;
-    height: 800px;
+.uno,.due,.tre{
+    width: 30%;
+    height: 1000px;
     border: solid 1px rgb(235, 235, 235);
+}
+
+.uno,.due{
+    float: left;
+}
+
+.due{
+    margin-left: 5%
+}
+
+.tre{
+    float: right;
+}
+
+form{
+    margin-bottom:30px;
 }
 
 .testa{
@@ -143,15 +159,73 @@ input{
     line-height: 40px;
 }
 
-.corpo{
-    padding: 30px;
-}
+.corpo,.piede{
+    padding: 30px 30px 0 30px;}
 
 .piano{
-    margin: 10px auto;
+    margin: 40px 0 15px 0;
 }
 
-p span{
+p a{
     text-decoration: underline;
     color: rgb(48, 130, 253);
 }
+
+.piccolo{
+    width: 30%;
+    size: 1px;
+}
+
+hr{
+    color: rgb(235, 235, 235);
+}
+
+.fa-check{
+    color:rgb(48, 130, 253)
+}
+
+h3,.punti{
+    padding: 10px 0;
+}
+
+.corpo h3{
+    font-size: 30px;
+}
+
+.corpo div,.corpo p{
+    padding-bottom: 15px;
+}
+
+.enterprise{
+    width: 100%;  
+    display: inline-block;
+    margin-top: 50px;
+    border: solid 1px rgb(235, 235, 235);
+}
+
+.quattro{
+    position: relative;
+}
+
+.quattro .corpo h4{
+    padding-bottom: 25px;
+}
+
+
+.quattro .corpo .piano{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-15%,150%);
+}
+
+.partner{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.partner img{
+    width: 50%;
+    float: left;
+}
+
