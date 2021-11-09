@@ -22,6 +22,11 @@
     clear: both;
 }
 
+.right a{
+    background-color: rgb(48, 130, 253);
+    color: white;
+}
+
 ul li{
     list-style: none; 
     display: inline-block;
@@ -83,7 +88,7 @@ a{
     text-decoration: none;
 }
 
-.prova{
+.prova, .inizia{
     color: white;
     background-color: rgb(48, 130, 253);
     padding: 10px 20px;
@@ -244,5 +249,52 @@ h3,.punti{
 /*QUARTO PARAGRAFO*/
 
 .quarto{
-    margin-top: 100px;
+    width: 70%;
+    margin: 100px auto;
 }
+
+span{
+    text-decoration: underline;
+}
+
+.quadrante h2{
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.operazione{
+    width: 30%;
+}
+
+.operazione img{
+    width: 100%;
+}
+
+.operazione h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.operazione p{
+    font-size: 18px;
+}
+
+.sx,.cnt{
+    float: left;
+}
+
+.dx{
+    float: right;
+}
+
+.sx{
+    margin-right: 5%;
+}
+
+.down{
+    margin: 100px 0 150px 0;
+    height: 500px;
+}
+
+/* QUINTO PARAGRAFO*/
+
