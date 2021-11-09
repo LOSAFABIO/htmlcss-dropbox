@@ -29,7 +29,7 @@ nav{
 }
 
 
-ul li{
+.menu ul li{
     list-style: none; 
     display: inline-block;
 }
@@ -66,15 +66,15 @@ ul li{
 }
 
 .primo{
-    height: 650px;
+    height: 700px;
     background-color: rgb(220, 236, 250);
     padding-top: 80px;
 }
 
 .jumboimg{
-    width: 800px;
+    width: 750px;
     position: absolute;
-    top: 270px;
+    top: 350px;
     right: 10%;
 }
 
@@ -516,13 +516,73 @@ span{
     display: inline-block;
     width: 50%;
     position: absolute;
-    top: 45%;
+    top: 100px;
 }
 
 .business .gratuita{
     display: inline-block;
     position: absolute;
-    top: 45%;
+    top: 100px;
     right: 15%; 
 }
 
+/*SESTO PARAGRAFO*/
+
+.faq{
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+/* FOOTER */
+
+.piedipagina{
+    height: 400px;
+    background-color: black;
+}
+
+.shortcut{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.colonna{
+    color: white;
+    display: inline-block;
+    width: 19%;
+}
+
+.colonna h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.colonna ul li a{
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+}
+
+.colonna ul li{
+    list-style: none;
+}
+.colonne{
+    display: flex;
+    padding-top: 100px;
+}
+
+.shortcut hr{
+    margin-top: 70px;
+    width: 10%;
+}
+
+.lingue{
+    margin-top: 40px;
+    color: rgba(255,255,255,0.7);
+}
