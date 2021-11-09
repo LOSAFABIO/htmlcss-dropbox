@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+nav{   
+    position: fixed;
+    z-index: 3;
+    background-color: white;
+}
+
 .contain{
    width: 100vw;
    max-width: 1440px;
@@ -22,10 +28,6 @@
     clear: both;
 }
 
-.right a{
-    background-color: rgb(48, 130, 253);
-    color: white;
-}
 
 ul li{
     list-style: none; 
@@ -66,6 +68,7 @@ ul li{
 .primo{
     height: 650px;
     background-color: rgb(220, 236, 250);
+    padding-top: 80px;
 }
 
 .jumboimg{
@@ -183,6 +186,8 @@ p a{
 
 hr{
     color: rgb(235, 235, 235);
+    width: 20%;
+    height: 1px;
 }
 
 .fa-check{
@@ -297,4 +302,227 @@ span{
 }
 
 /* QUINTO PARAGRAFO*/
+
+.team{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.team .quadrante{
+    width: 55%;
+    margin-bottom: 20px;
+}
+
+.team .quadrante h2{
+    margin-bottom: 0;
+}
+
+.team .quadrante p{
+    margin: 20px 0;
+    text-decoration: underline;
+    color:rgb(48, 130, 253)
+}
+
+.aziende{
+    height: 400px;
+    width: 100%;
+}
+
+.lsx{
+    width: 30%;
+    float: left;
+    position: relative;
+    height: 100%;
+}
+
+.lsx div{
+    width: 50%;
+    height: 50%;
+}
+
+.A {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(114, 199, 114);
+}
+
+.B {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(155, 65, 95);
+}
+
+.C {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(29, 165, 255);
+}
+
+.D {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: red;
+}
+
+.immagine img{
+    width: 55%;
+}
+
+.A img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.B img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.C img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.D img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.lrx{
+    width: 30%;
+    float: right;
+    position: relative;
+    height: 100%;
+}
+
+.lrx div{
+    width: 50%;
+    height: 50%;
+}
+
+
+.E img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.F img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.G img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.H img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.E {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgb(182, 0, 0);
+}
+
+.F {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: lightblue;
+}
+
+.G {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(43, 43, 221);
+}
+
+.H {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(240, 217, 13);
+}
+
+.lc{
+    width: 40%;
+    float: left;
+    height: 100%;
+    background-color: rgb(238, 238, 238);
+}
+
+.lc{
+    padding: 40px;
+}
+
+.lc img{
+    width: 25%;
+}
+
+.lc hr{
+    height: 1px;
+    margin: 25px 0 30px 0;
+    width: 10%;
+    color: rgb(196, 196, 196);
+}
+
+.lc p{
+    padding: 20px 0;
+}
+
+.azienda{
+    height: 300px;
+    width: 100%;
+    background-color: lightblue;
+    position: relative;
+}
+
+.azienda h2{
+    color: rgb(155, 65, 95);
+    font-size: 40px;
+}
+
+.business{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.testo{
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    top: 45%;
+}
+
+.business .gratuita{
+    display: inline-block;
+    position: absolute;
+    top: 45%;
+    right: 15%; 
+}
 
