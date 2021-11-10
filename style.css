@@ -2,16 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav{   
     position: fixed;
     z-index: 3;
     background-color: white;
+    width: 100%;
 }
 
 .contain{
-   width: 100vw;
+   width: 100%;
    max-width: 1440px;
    min-width: 800px;
    position: relative;
@@ -71,20 +73,20 @@ nav{
 }
 
 .primo{
-    height: 700px;
+    height: 740px;
     background-color: rgb(220, 236, 250);
     padding-top: 80px;
 }
 
 .jumboimg{
-    width: 750px;
+    width: 760px;
     position: absolute;
-    top: 350px;
+    top: 377px;
     right: 10%;
 }
 
 .jumbo h1{
-    font-size: 75px;
+    font-size: 65px;
 }
 
 .p{
@@ -125,7 +127,7 @@ a{
 .fatturazione{
     width: 70%;
     margin: 0 auto;
-    padding: 200px 0 100px 0;
+    padding: 150px 0 100px 0;
 }
 
 .fatturazione h2{
@@ -145,7 +147,7 @@ input{
 
 .uno,.due,.tre{
     width: 30%;
-    height: 1000px;
+    height: 1100px;
     border: solid 1px rgb(235, 235, 235);
 }
 
@@ -303,7 +305,7 @@ span{
 
 .down{
     margin: 100px 0 150px 0;
-    height: 500px;
+    height: 600px;
 }
 
 /* QUINTO PARAGRAFO*/
@@ -314,7 +316,7 @@ span{
 }
 
 .team .quadrante{
-    width: 55%;
+    width: 70%;
     margin-bottom: 20px;
 }
 
@@ -331,6 +333,7 @@ span{
 .aziende{
     height: 400px;
     width: 100%;
+    cursor: pointer;
 }
 
 .lsx{
@@ -350,6 +353,7 @@ span{
     top: 0;
     left: 0;
     background-color: rgb(114, 199, 114);
+    border: solid 10px #b2ecb2;
 }
 
 .B {
@@ -382,6 +386,7 @@ span{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    width: 60%;
 }
 
 .B img{
@@ -538,7 +543,7 @@ span{
 
 .faq{
     width: 70%;
-    height: 640px;
+    height: 690px;
     margin: 0 auto;
 }
 
@@ -594,7 +599,7 @@ span{
 /* FOOTER */
 
 .piedipagina{
-    height: 400px;
+    height: 435px;
     background-color: black;
 }
 
@@ -634,7 +639,7 @@ span{
 }
 
 .lingue{
-    margin-top: 40px;
+    margin: 35px 0;
     color: rgba(255,255,255,0.7);
 }
 
